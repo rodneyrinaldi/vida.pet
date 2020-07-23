@@ -11,16 +11,18 @@ function TierHome() {
           <li><a href="/"><img src="/img-menu.png" alt="menu" /></a></li>
         </nav>
       </header>
-      <div className={styles.text}>
-        <h1>PROTEJA</h1>
-        <div>
-          <h2>FAÇA PARTE DA</h2>
-          <h2><span>COMUNIDADE</span></h2>
-          <h1>SEU AMIGO</h1>
-          <h2>QR CODE NO PET</h2>
-          <h2>PARA LOCALIZAÇÂO</h2>
-        </div>
-      </div>
+
+
+      <h1 className={styles.title1}>PROTEJA</h1>
+      <h1 className={styles.title1}>SEU</h1>
+      <h1 className={styles.title1}>AMIGO</h1>
+
+      <h2 className={styles.title2}>FAÇA PARTE</h2>
+      <h2 className={styles.title2}>COMUNIDADE</h2>
+
+      <h2 className={styles.title2}>QR CODE PET</h2>
+      <h2 className={styles.title2}>LOCALIZAÇÂO</h2>
+
       <div className={styles.logo}>
         <img src="/img-header.png" alt="banner" />
       </div>

@@ -13,19 +13,14 @@ function Index() {
         <TierHome />
       </HeaderTier>
       <SectionTier href="/">
-        <p>REGISTRO DE LOCALIZADOR</p>
       </SectionTier>
       <SectionTier href="/">
-        <p>ALERTA DE LOCALIZAÇÃO</p>
       </SectionTier>
       <SectionTier href="/" show>
-        <p>PAINEL DE ANUNCIOS DE ANIMAIS</p>
       </SectionTier>
       <SectionTier href="/">
-        <p>ENTRE EM CONTATO</p>
       </SectionTier>
       <FooterTier>
-        <p>footer</p>
       </FooterTier>
     </>
   )

@@ -1,18 +1,12 @@
 .headerTier {
-  height: 16em;
+  height: 30em;
   padding: 5px 5px;
   display: flex;
   color: white;
-  background: url("../../img/image-tier.png") no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../img/image-tier.png") no-repeat;
   background-size: cover;
-  filter: brightness(100%);
 }
 /* --------------- */
-@media (min-width: 375px) {
-  .headerTier {
-    height: 32em;
-  }
-}
 @media (min-width: 1024px) {
     .headerTier {
       height: 40em;
