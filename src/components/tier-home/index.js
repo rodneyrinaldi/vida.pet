@@ -6,8 +6,8 @@ function TierHome() {
       <header className={styles.header}>
         <a href="/"><img src="/vida.pet.png" alt="logo" /></a>
         <nav>
-          <li><a href="/About">ACESSO</a></li>
-          <li><a href="/About">CONTATO</a></li>
+          <li><a href="/">ACESSO</a></li>
+          <li><a href="/">CONTATO</a></li>
           <li><a href="/"><img src="/img-menu.png" alt="menu" /></a></li>
         </nav>
       </header>
