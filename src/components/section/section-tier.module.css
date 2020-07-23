@@ -1,0 +1,16 @@
+.sectionTier {
+  height: 400px;
+  padding: 5px 5px;
+  display: flex;
+  color: white;
+  background: url("../../img/image-tier2.png") no-repeat;
+  background-size: cover;
+}
+.sectionTierImg {
+  height: 400px;
+  padding: 5px 5px;
+  display: flex;
+  color: white;
+  background: url("../../img/image-tier.png") no-repeat;
+  background-size: cover;
+}

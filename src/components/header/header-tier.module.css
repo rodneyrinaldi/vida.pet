@@ -1,0 +1,25 @@
+.headerTier {
+  height: 16em;
+  padding: 5px 5px;
+  display: flex;
+  color: white;
+  background: url("../../img/image-tier.png") no-repeat;
+  background-size: cover;
+  filter: brightness(100%);
+}
+/* --------------- */
+@media (min-width: 375px) {
+  .headerTier {
+    height: 32em;
+  }
+}
+@media (min-width: 1024px) {
+    .headerTier {
+      height: 40em;
+  }
+}
+@media (min-width: 1440px) {
+    .headerTier {
+      height: 50em;
+  }
+}
