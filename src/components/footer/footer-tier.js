@@ -1,10 +1,10 @@
 // import NavLink from '../common/nav-link'
 import styles from './footer-tier.module.css'
 
-export default function FooterTier({ children, href }) {
+export default function FooterTier() {
   return (
-    <section className={styles.footerTier}>
-      {children}
+    <section className="sectionGreenTier">
+      footer
     </section>
   )
 }

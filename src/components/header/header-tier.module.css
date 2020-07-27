@@ -1,19 +1,88 @@
-.headerTier {
-  height: 30em;
-  padding: 5px 5px;
+/*--- header ---*/
+.sectionHeader {
+  width: 100vw;
   display: flex;
-  color: white;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../img/image-tier.png") no-repeat;
-  background-size: cover;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 10vw;
+  background-color: rgba(189, 92, 13, 0.3);
 }
-/* --------------- */
+.sectionHeader nav {display: flex;}
+.sectionHeader nav li { margin: 0 15px; }
+.sectionHeader nav li:first-child{ margin-left: 0; } 
+.sectionHeader nav li:last-child{ margin-right: 0; }
+.sectionHeader nav li a{ color: #fff; font-weight: 500;}
+.sectionHeader nav li a:hover{ color: #fff; font-weight: 700;}
+.sectionHeaderImg {
+  display: flex;
+}
+.sectionHeaderImg img {
+  width: 100%;
+  display:block; 
+  height: auto;
+}
+.sectionHeaderLogoImg {
+  width: 8vw;
+}
+.sectionHeaderLogoTxt {
+  width: 16vw;
+}
+.sectionHeaderButtons {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+.sectionHeaderButtons input {
+  margin: 5px;
+}
+.buttonsPrimary {
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: rgb(236, 110, 25);
+  border: rgb(236, 110, 25) 1px solid;
+  border-radius: 10px;
+  padding: 1.2vh 5vw;
+}
+.buttonsPrimary:hover {
+  background-color: rgb(248, 140, 78);
+}
+.buttonsSecondary {
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 1.2vh 5vw;
+}
+.buttonsSecondary:hover {
+  background-color: rgba(239, 245, 242, 0.2);
+}
+@media (min-width: 375px) {
+  .buttonsPrimary, .buttonsSecondary {font-size: 14px;}
+  .sectionHeader nav li a{ font-size: 14px;}
+  .sectionHeaderLogoImg {width: 4vw;}
+  .sectionHeaderLogoTxt {width: 8vw;}
+  .sectionHeaderButtons input {margin: 5px;}
+}
 @media (min-width: 1024px) {
-    .headerTier {
-      height: 40em;
-  }
+  .buttonsPrimary, .buttonsSecondary {font-size: 16px;}
+  .sectionHeader nav li a{ font-size: 16px;}
+  .sectionHeaderLogoImg {width: 4vw;}
+  .sectionHeaderLogoTxt {width: 8vw;}
+  .sectionHeaderButtons input {margin: 10px;}
 }
 @media (min-width: 1440px) {
-    .headerTier {
-      height: 50em;
-  }
+  .buttonsPrimary, .buttonsSecondary {font-size: 18px;}
+  .sectionHeader nav li a{ font-size: 18px;}
+  .sectionHeaderLogoImg {width: 4vw;}
+  .sectionHeaderLogoTxt {width: 8vw;}
+  .sectionHeaderButtons input {margin: 20px;}
 }

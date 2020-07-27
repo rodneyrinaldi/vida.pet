@@ -1,8 +1,0 @@
-.footerTier {
-  height: 110px;
-  padding: 5px 5px;
-  display: flex;
-  color: white;
-  background: url("../../img/image-tier.png") no-repeat;
-  background-size: cover;
-}
