@@ -1,4 +1,3 @@
-/*--- header ---*/
 .sectionHeader {
   width: 100vw;
   display: flex;
@@ -6,14 +5,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 1vh 10vw;
-  background-color: rgba(189, 92, 13, 0.3);
 }
 .sectionHeader nav {display: flex;}
 .sectionHeader nav li { margin: 0 15px; }
 .sectionHeader nav li:first-child{ margin-left: 0; } 
 .sectionHeader nav li:last-child{ margin-right: 0; }
-.sectionHeader nav li a{ color: #fff; font-weight: 500;}
-.sectionHeader nav li a:hover{ color: #fff; font-weight: 700;}
+.sectionHeader nav li a{ color: #fff; font-size: 20px; font-weight: 500;}
+.sectionHeader nav li a:hover{ color: orangered; }
 .sectionHeaderImg {
   display: flex;
 }
@@ -41,7 +39,7 @@
 }
 .buttonsPrimary {
   width: fit-content;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: aliceblue;
   background-color: rgb(236, 110, 25);
@@ -54,7 +52,7 @@
 }
 .buttonsSecondary {
   width: fit-content;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0);
@@ -65,23 +63,23 @@
 .buttonsSecondary:hover {
   background-color: rgba(239, 245, 242, 0.2);
 }
-@media (min-width: 375px) {
-  .buttonsPrimary, .buttonsSecondary {font-size: 14px;}
-  .sectionHeader nav li a{ font-size: 14px;}
+@media (min-width: 600) {
+  .buttonsPrimary, .buttonsSecondary {font-size: 24px;}
+  .sectionHeader nav li a{ font-size: 24px;}
   .sectionHeaderLogoImg {width: 4vw;}
   .sectionHeaderLogoTxt {width: 8vw;}
   .sectionHeaderButtons input {margin: 5px;}
 }
-@media (min-width: 1024px) {
-  .buttonsPrimary, .buttonsSecondary {font-size: 16px;}
-  .sectionHeader nav li a{ font-size: 16px;}
+@media (min-width: 900) {
+  .buttonsPrimary, .buttonsSecondary {font-size: 30px;}
+  .sectionHeader nav li a{ font-size: 30px;}
   .sectionHeaderLogoImg {width: 4vw;}
   .sectionHeaderLogoTxt {width: 8vw;}
   .sectionHeaderButtons input {margin: 10px;}
 }
-@media (min-width: 1440px) {
-  .buttonsPrimary, .buttonsSecondary {font-size: 18px;}
-  .sectionHeader nav li a{ font-size: 18px;}
+@media (min-width: 1200) {
+  .buttonsPrimary, .buttonsSecondary {font-size: 40px;}
+  .sectionHeader nav li a{ font-size: 40px;}
   .sectionHeaderLogoImg {width: 4vw;}
   .sectionHeaderLogoTxt {width: 8vw;}
   .sectionHeaderButtons input {margin: 20px;}

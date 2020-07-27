@@ -1,0 +1,53 @@
+.bannerRegister {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh 10vw;
+}
+.bannerRegisterImg {
+  display: flex;
+}
+.bannerRegisterImg img {
+  width: 100%;
+  display:block; 
+  height: auto;
+}
+
+.sectionRegisterButtons {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionRegisterButtons input {
+  margin-top: 30px;
+}
+.buttonsSecondary {
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(47, 151, 34);
+  border: solid 1px rgb(47, 151, 34);
+  border-radius: 10px;
+  padding: 1.2vh 5vw;
+}
+.buttonsSecondary:hover {
+  background-color: rgba(52, 192, 122, 0.192);
+}
+@media (min-width: 600) {
+  .buttonsSecondary {font-size: 24px;}
+  .sectionHeaderButtons input {margin: 5px;}
+}
+@media (min-width: 900) {
+  .buttonsSecondary {font-size: 30px;}
+  .sectionHeaderButtons input {margin: 10px;}
+}
+@media (min-width: 1200) {
+  .buttonsSecondary {font-size: 40px;}
+  .sectionHeaderButtons input {margin: 20px;}
+}
