@@ -1,4 +1,4 @@
-import styles from './Register-tier.module.css'
+import styles from './register-tier.module.css'
 
 export default function RegisterTier() {
   return (

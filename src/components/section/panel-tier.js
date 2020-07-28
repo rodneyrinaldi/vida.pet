@@ -1,4 +1,4 @@
-import styles from './Panel-tier.module.css'
+import styles from './panel-tier.module.css'
 
 export default function PanelTier() {
   return (

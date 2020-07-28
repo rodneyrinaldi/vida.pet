@@ -1,4 +1,4 @@
-import styles from './Contact-tier.module.css'
+import styles from './contact-tier.module.css'
 
 export default function ContactTier() {
   return (
