@@ -1,4 +1,11 @@
-/*=== TIERS ===*/
+.sectionEmptyTier {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .sectionGreenTier {
   width: 100vw;
   display: flex;
@@ -11,6 +18,8 @@
 .sectionWhiteTier {
   width: 100vw;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url('../img/tier-back-white.png');
   background-repeat: no-repeat;
   background-size: cover;

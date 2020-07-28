@@ -1,8 +1,9 @@
-import styles from "./index.module.css"
+import styles from './Register-tier.module.css'
 
-export default function SectionRegister() {
+export default function RegisterTier() {
   return (
-    <section className={styles.bannerRegister}>
+
+    <section className="sectionWhiteTier">
 
       <section className={styles.sectionRegisterImg}>
         <img src="/banner-register.png" alt="banner" />
@@ -13,5 +14,6 @@ export default function SectionRegister() {
       </section>
 
     </section>
+
   )
 }

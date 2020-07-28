@@ -1,0 +1,54 @@
+.sectionPanel {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 10vw;
+}
+.sectionPanelImg {
+  display: flex;
+}
+.sectionPanelImg img {
+  width: 100%;
+  display:block; 
+  height: auto;
+}
+.sectionPanelButtons {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: red;
+}
+.sectionPanelButtons input {
+  margin: 5px;
+}
+.buttonsSecondary {
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 1.2vh 5vw;
+}
+.buttonsSecondary:hover {
+  background-color: rgba(239, 245, 242, 0.2);
+}
+@media (min-width: 600) {
+  .buttonsSecondary {font-size: 24px;}
+  .sectionPanelButtons input {margin: 5px;}
+}
+@media (min-width: 900) {
+  .buttonsSecondary {font-size: 30px;}
+  .sectionPanelButtons input {margin: 10px;}
+}
+@media (min-width: 1200) {
+  .buttonsSecondary {font-size: 40px;}
+  .sectionPanelButtons input {margin: 20px;}
+}

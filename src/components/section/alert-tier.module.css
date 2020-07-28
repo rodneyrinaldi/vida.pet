@@ -1,29 +1,32 @@
-.bannerRegister {
+.sectionAlert {
   width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10vh 10vw;
+  padding: 1vh 10vw;
 }
-.bannerRegisterImg {
+.sectionAlertImg {
   display: flex;
 }
-.bannerRegisterImg img {
+.sectionAlertImg img {
   width: 100%;
   display:block; 
   height: auto;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
 }
-
-.sectionRegisterButtons {
+.sectionAlertButtons {
   width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.sectionRegisterButtons input {
-  margin-top: 30px;
+.sectionAlertButtons input {
+  margin: 5px;
 }
 .buttonsSecondary {
   width: fit-content;
@@ -31,23 +34,22 @@
   font-weight: 600;
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0);
-  color: rgb(47, 151, 34);
-  border: solid 1px rgb(47, 151, 34);
+  border: solid 1px white;
   border-radius: 10px;
   padding: 1.2vh 5vw;
 }
 .buttonsSecondary:hover {
-  background-color: rgba(52, 192, 122, 0.192);
+  background-color: rgba(239, 245, 242, 0.2);
 }
 @media (min-width: 600) {
   .buttonsSecondary {font-size: 24px;}
-  .sectionHeaderButtons input {margin: 5px;}
+  .sectionAlertButtons input {margin: 5px;}
 }
 @media (min-width: 900) {
   .buttonsSecondary {font-size: 30px;}
-  .sectionHeaderButtons input {margin: 10px;}
+  .sectionAlertButtons input {margin: 10px;}
 }
 @media (min-width: 1200) {
   .buttonsSecondary {font-size: 40px;}
-  .sectionHeaderButtons input {margin: 20px;}
+  .sectionAlertButtons input {margin: 20px;}
 }

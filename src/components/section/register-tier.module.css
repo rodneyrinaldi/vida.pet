@@ -1,0 +1,57 @@
+.sectionRegister {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 10vw;
+}
+.sectionRegisterImg {
+  display: flex;
+}
+.sectionRegisterImg img {
+  width: 100%;
+  display:block; 
+  height: auto;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  
+}
+.sectionRegisterButtons {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sectionRegisterButtons input {
+  margin: 5px;
+}
+.buttonsSecondary {
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+  color: green;
+  background-color: rgba(0, 128, 0, 0);
+  border: solid 1px green;
+  border-radius: 10px;
+  padding: 1.2vh 5vw;
+}
+.buttonsSecondary:hover {
+  background-color: rgba(89, 199, 144, 0.2);
+}
+@media (min-width: 600) {
+  .buttonsSecondary {font-size: 24px;}
+  .sectionRegisterButtons input {margin: 5px;}
+}
+@media (min-width: 900) {
+  .buttonsSecondary {font-size: 30px;}
+  .sectionRegisterButtons input {margin: 10px;}
+}
+@media (min-width: 1200) {
+  .buttonsSecondary {font-size: 40px;}
+  .sectionRegisterButtons input {margin: 20px;}
+}
