@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './register-tier.module.css'
 
 export default function RegisterTier() {
@@ -6,7 +7,9 @@ export default function RegisterTier() {
     <section className="sectionWhiteTier">
 
       <section className={styles.sectionRegisterImg}>
-        <img src="/banner-register.png" alt="banner" />
+        <Link href="/register">
+          <a><img src="/banner-register.png" alt="banner" /></a>
+        </Link>
       </section>
 
       <section className={styles.sectionRegisterButtons}>

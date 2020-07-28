@@ -43,15 +43,26 @@
 .buttonsSecondary:hover {
   background-color: rgba(89, 199, 144, 0.2);
 }
-@media (min-width: 600) {
-  .buttonsSecondary {font-size: 24px;}
-  .sectionRegisterButtons input {margin: 5px;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 }
-@media (min-width: 900) {
-  .buttonsSecondary {font-size: 30px;}
-  .sectionRegisterButtons input {margin: 10px;}
-}
-@media (min-width: 1200) {
-  .buttonsSecondary {font-size: 40px;}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   .sectionRegisterButtons input {margin: 20px;}
+  .buttonsSecondary {font-size: 20px;}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sectionRegisterButtons input {margin: 22px;}
+  .buttonsSecondary {font-size: 22px;}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sectionRegisterButtons input {margin: 26px;}
+  .buttonsSecondary {font-size: 26px;}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sectionRegisterButtons input {margin: 20px;}
+  .buttonsSecondary {font-size: 30px;}
 }

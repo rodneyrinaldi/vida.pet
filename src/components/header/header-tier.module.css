@@ -1,30 +1,30 @@
 .sectionHeader {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vh 10vw;
+  justify-content: center;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
 .sectionHeader nav {display: flex;}
-.sectionHeader nav li { margin: 0 15px; }
-.sectionHeader nav li:first-child{ margin-left: 0; } 
-.sectionHeader nav li:last-child{ margin-right: 0; }
+.sectionHeader nav li { margin: 15px; }
 .sectionHeader nav li a{ color: #fff; font-size: 20px; font-weight: 500;}
-.sectionHeader nav li a:hover{ color: orangered; }
+.sectionHeader nav li a:hover{color: rgb(214, 214, 214); }
+.sectionHeader nav li a img { width: 3vh}
 .sectionHeaderImg {
   display: flex;
 }
 .sectionHeaderImg img {
   width: 100%;
-  display:block; 
-  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .sectionHeaderLogoImg {
-  width: 8vw;
-}
-.sectionHeaderLogoTxt {
-  width: 16vw;
+  width: 100%;
+  max-width: 74%;
 }
 .sectionHeaderButtons {
   width: 100vw;
@@ -63,24 +63,27 @@
 .buttonsSecondary:hover {
   background-color: rgba(239, 245, 242, 0.2);
 }
-@media (min-width: 600) {
-  .buttonsPrimary, .buttonsSecondary {font-size: 24px;}
-  .sectionHeader nav li a{ font-size: 24px;}
-  .sectionHeaderLogoImg {width: 4vw;}
-  .sectionHeaderLogoTxt {width: 8vw;}
-  .sectionHeaderButtons input {margin: 5px;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 }
-@media (min-width: 900) {
-  .buttonsPrimary, .buttonsSecondary {font-size: 30px;}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .sectionHeader nav li a{ font-size: 20px;}
+  .buttonsPrimary, .buttonsSecondary {font-size: 20px;}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sectionHeader nav li a{ font-size: 22px;}
+  .buttonsPrimary, .buttonsSecondary {font-size: 22px;}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sectionHeader nav li a{ font-size: 26px;}
+  .buttonsPrimary, .buttonsSecondary {font-size: 26px;}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   .sectionHeader nav li a{ font-size: 30px;}
-  .sectionHeaderLogoImg {width: 4vw;}
-  .sectionHeaderLogoTxt {width: 8vw;}
-  .sectionHeaderButtons input {margin: 10px;}
-}
-@media (min-width: 1200) {
-  .buttonsPrimary, .buttonsSecondary {font-size: 40px;}
-  .sectionHeader nav li a{ font-size: 40px;}
-  .sectionHeaderLogoImg {width: 4vw;}
-  .sectionHeaderLogoTxt {width: 8vw;}
   .sectionHeaderButtons input {margin: 20px;}
+  .buttonsPrimary, .buttonsSecondary {font-size: 30px;}
 }

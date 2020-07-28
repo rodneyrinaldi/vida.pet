@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './alert-tier.module.css'
 
 export default function AlertTier() {
@@ -6,11 +7,9 @@ export default function AlertTier() {
     <section className="sectionWhiteTier">
 
       <section className={styles.sectionAlertImg}>
-        <img src="/banner-alert.png" alt="banner" />
-      </section>
-
-      <section className={styles.sectionAlertButtons}>
-        <input type="submit" className={styles.buttonsSecondary} value="SABER MAIS" />
+        <Link href="/alert">
+          <a><img src="/banner-alert.png" alt="banner" /></a>
+        </Link>
       </section>
 
     </section>

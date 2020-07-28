@@ -1,6 +1,7 @@
 import styles from './header-tier.module.css'
 
 export default function HeaderTier() {
+
   return (
 
     <section className="sectionGreenTier">
@@ -8,12 +9,11 @@ export default function HeaderTier() {
       <header className={styles.sectionHeader}>
         <div>
           <a href="/"><img src="/logo-img.png" alt="logo" className={styles.sectionHeaderLogoImg} /></a>
-          <a href="/"><img src="/logo-txt.png" alt="logo" className={styles.sectionHeaderLogoTxt} /></a>
         </div>
         <nav>
           <li><a href="/">ACESSO</a></li>
           <li><a href="/">CONTATO</a></li>
-          <li><a href="/">=</a></li>
+          <li><a href="/"><img src="/menu.png" alt="logo" /></a></li>
         </nav>
       </header>
 
