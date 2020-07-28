@@ -11,9 +11,9 @@ function Index() {
   return (
     <>
       <HeaderTier />
-      {/* <RegisterTier /> */}
-      {/* <AlertTier /> */}
-      {/* <PanelTier /> */}
+      <RegisterTier />
+      <AlertTier />
+      <PanelTier />
       <ContactTier />
       <FooterTier />
     </>
