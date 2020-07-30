@@ -10,7 +10,7 @@
 
 .sectionHeader nav {display: flex;}
 .sectionHeader nav li { margin: 15px; }
-.sectionHeader nav li a{ color: #fff; font-size: 20px; font-weight: 500;}
+.sectionHeader nav li a{ color: #fff; font-size: 50px; font-weight: 500;}
 .sectionHeader nav li a:hover{color: rgb(214, 214, 214); }
 .sectionHeader nav li a img { width: 3vh}
 .sectionHeaderImg {
