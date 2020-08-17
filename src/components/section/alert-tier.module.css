@@ -1,10 +1,9 @@
-.sectionAlert {
-  width: 100vw;
+.sectionAlert {  
+  width: 90vw;
+  max-width: 700px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vh 10vw;
+  justify-content: center;
+  padding-top: 2rem;
 }
 .sectionAlertImg {
   display: flex;
@@ -13,8 +12,31 @@
   width: 100%;
   display:block; 
   height: auto;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
+  
+}
+.sectionAlertButtons {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sectionAlertButtons input {
+  margin: 1rem 15rem 5rem 0;
+}
+.buttonsSecondary {
+  width: fit-content;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--color-secondary-dark);
+  background-color: rgba(0, 0, 0, 0);
+  border:  var(--color-secondary-dark) 1px solid;
+  border-radius: 8px;
+  padding: 1vh 6vw;
+}
+.buttonsSecondary:hover {
+  background-color:rgba(0, 0, 0, 0.1);
 }

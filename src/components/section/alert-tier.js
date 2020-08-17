@@ -12,6 +12,10 @@ export default function AlertTier() {
         </Link>
       </section>
 
+      <section className={styles.sectionAlertButtons}>
+        <input type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
+      </section>
+
     </section>
 
   )
