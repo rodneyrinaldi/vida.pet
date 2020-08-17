@@ -1,10 +1,9 @@
-.sectionRegister {
-  width: 100vw;
+.sectionRegister {  
+  width: 90vw;
+  max-width: 700px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vh 10vw;
+  justify-content: center;
+  padding-top: 2rem;
 }
 .sectionRegisterImg {
   display: flex;
@@ -27,42 +26,18 @@
   align-items: center;
 }
 .sectionRegisterButtons input {
-  margin: 5px;
+  margin: 1rem 0 5rem 12rem;
 }
 .buttonsSecondary {
   width: fit-content;
-  font-size: 20px;
-  font-weight: 600;
-  color: aliceblue;
-  color: green;
-  background-color: rgba(0, 128, 0, 0);
-  border: solid 1px green;
-  border-radius: 10px;
-  padding: 1.2vh 5vw;
+  font-size: 2.0rem;
+  font-weight: 500;
+  color: var(--color-primary-dark);
+  background-color: rgba(0, 0, 0, 0);
+  border:  var(--color-primary-dark) 1px solid;
+  border-radius: 8px;
+  padding: 1vh 6vw;
 }
 .buttonsSecondary:hover {
-  background-color: rgba(89, 199, 144, 0.2);
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .sectionRegisterButtons input {margin: 20px;}
-  .buttonsSecondary {font-size: 20px;}
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .sectionRegisterButtons input {margin: 22px;}
-  .buttonsSecondary {font-size: 22px;}
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .sectionRegisterButtons input {margin: 26px;}
-  .buttonsSecondary {font-size: 26px;}
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .sectionRegisterButtons input {margin: 20px;}
-  .buttonsSecondary {font-size: 30px;}
+  background-color:rgba(0, 0, 0, 0.1);
 }

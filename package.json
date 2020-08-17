@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@styled-icons/boxicons-regular": "^10.15.1",
     "emailjs-com": "^2.4.1",
     "next": "9.4.4",
     "next-images": "^1.4.0",

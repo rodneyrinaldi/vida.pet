@@ -13,9 +13,9 @@ function Index() {
       <HeaderTier />
       <RegisterTier />
       <AlertTier />
-      <PanelTier />
+      {/* <PanelTier />
       <ContactTier />
-      <FooterTier />
+      <FooterTier /> */}
     </>
   )
 }

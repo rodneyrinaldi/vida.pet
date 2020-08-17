@@ -13,7 +13,7 @@ export default function RegisterTier() {
       </section>
 
       <section className={styles.sectionRegisterButtons}>
-        <input type="submit" className={styles.buttonsSecondary} value="SABER MAIS" />
+        <input type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
       </section>
 
     </section>
