@@ -5,6 +5,7 @@ export default function contactTier() {
   return (
     <section className="sectionGreenTier">
       <form method="post" action="#" className={styles.sectionContact} >
+        <h2>Entre em contato</h2>
 
         <input type="text" name="name" placeholder="Nome" id="name" />
         <input type="email" name="email" placeholder="E-mail" id="email" />
