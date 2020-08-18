@@ -3,6 +3,11 @@ import { Menu } from '@styled-icons/boxicons-regular'
 import styles from './header-tier.module.css'
 
 export default function HeaderTier() {
+  function showModal() {
+    var x = document.getElementById("modalTier");
+    x.style.display = "block";
+    console.log('clicado');
+  }
 
   return (
 
@@ -22,7 +27,7 @@ export default function HeaderTier() {
 
       <section className={styles.sectionHeaderButtons}>
         <input type="submit" className={styles.buttonsPrimary} value="REGISTRE-SE" />
-        <input type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
+        <input onClick={showModal} type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
       </section>
 
     </section>

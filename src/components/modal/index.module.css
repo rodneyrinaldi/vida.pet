@@ -1,19 +1,14 @@
 .sectionModal {  
-  width: 80vw;
-  max-width: 700px;
-  height: 60vh;
-  max-height: 500px;
-  /* display: flex;
-  justify-content: center;
-  padding: 2rem; */
+  width: 86vw;
+  height: 76vh;
   color: var(--color-text);
   background-color: var(--color-secondary-light);
   
-  display: block; 
+  display: none; 
   position: fixed;
   z-index: 1;
   left: auto;
-  top: 14%; 
+  top: 10%; 
   overflow: auto; 
 }
 

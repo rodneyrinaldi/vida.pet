@@ -19,6 +19,7 @@
   --color-secondary-dark: #d86518;
   --color-secondary-text: #D4C2FF;
   --color-secondary-title: #FFFFFF;
+  --font-factor: 1vw;
   font-size: 60%; 
 }
 
@@ -37,10 +38,16 @@ body {
   background: var(--color-background);
 }
 
-body, input, button, textarea {
+body, input, button, textarea, h1, h2, h3 {
   font-family: Roboto, Ubuntu, sans-serif;
   font: 500 1.6rem sans-serif;
   color: var(--color-text);
+}
+
+textarea:focus, input:focus {
+  outline: none !important;
+  border:1px solid #355a34;
+  box-shadow: 0 0 10px #566e61;
 }
 
 nav, ul, a {
@@ -55,9 +62,40 @@ nav, ul, a {
   justify-content: center;
 }
 
-@media (min-width: 700) {
+/* @media (min-width: 700) {
   :root {
     font-size: 62.5%;
+  }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  :root {
+    --font-factor:2vw;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)  {
+  :root {
+    --font-factor:1.6vw;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  {
+  :root {
+    --font-factor:1.1vw;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)  {
+  :root {
+    --font-factor:1vw;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)  {
+  :root {
+    --font-factor:1vw;
   }
 }
 
