@@ -2,6 +2,12 @@ import Link from 'next/link'
 import styles from './alert-tier.module.css'
 
 export default function AlertTier() {
+  function showModal() {
+    var x = document.getElementById("modalTier");
+    x.style.display = "block";
+    console.log('clicado');
+  }
+
   return (
 
     <section className="sectionWhiteTier">
@@ -13,7 +19,7 @@ export default function AlertTier() {
       </section>
 
       <section className={styles.sectionAlertButtons}>
-        <input type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
+        <input onClick={showModal} type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
       </section>
 
     </section>

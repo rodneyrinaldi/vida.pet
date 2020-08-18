@@ -1,15 +1,20 @@
 import Link from 'next/link'
 import styles from './register-tier.module.css'
 
+import ModalTier from '../modal/index'
+
 export default function RegisterTier() {
   function showModal() {
     var x = document.getElementById("modalTier");
     x.style.display = "block";
+    console.log('clicado');
   }
 
   return (
 
     <section className="sectionWhiteTier">
+
+      <ModalTier />
 
       <section className={styles.sectionRegisterImg}>
         <Link href="/register">

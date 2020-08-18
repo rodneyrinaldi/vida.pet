@@ -11,7 +11,8 @@
   width: 100%;
   height: 4.4rem;
   color: var(--color-background);
-  font: calc(16px + 1vw);
+  font-size: calc(16px + var(--font-factor));
+  font-weight: 600;
 }
 .sectionContact > input {
   width: 100%;
@@ -22,7 +23,7 @@
   border: 1px solid var(--color-input-border);
   outline: 0;
   padding: 0 1.6rem;
-  font: calc(16px + 1vw);
+  font-size: calc(12px + var(--font-factor));
 }
 .sectionContact > textarea {
   width: 100%;
@@ -34,7 +35,7 @@
   border: 1px solid var(--color-input-border);
   outline: 0;
   padding: 1.6rem 1.6rem;
-  font: calc(16px + 1vw);
+  font-size: calc(12px + var(--font-factor));
   resize: vertical;
 }
 
@@ -49,7 +50,7 @@
 }
 .buttonsPrimary {
   width: fit-content;
-  font-size: calc(16px + 1vw);
+  font-size: calc(12px + var(--font-factor));
   font-weight: 500;
   color: var(--color-background);
   background-color: var(--color-secondary);
