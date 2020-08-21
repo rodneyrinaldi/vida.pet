@@ -83,7 +83,7 @@ nav, ul, a {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)  {
   :root {
-    --font-factor:1vw;
+    --font-factor:1.3vw;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */

@@ -9,7 +9,8 @@
   display: flex;
 }
 .sectionAlertImg img {
-  width: 100%;
+  width: 90vw;
+  max-width: 700px;
   display:block; 
   height: auto;
   padding-top: 10%;
@@ -18,7 +19,7 @@
   padding-bottom: 5%;  
 }
 .sectionAlertButtons {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   justify-content: center;

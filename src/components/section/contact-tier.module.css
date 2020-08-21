@@ -9,6 +9,7 @@
 }
 .sectionContact h2 {
   width: 100%;
+  max-width: 700px;
   height: 4.4rem;
   color: var(--color-background);
   font-size: calc(16px + var(--font-factor));
@@ -16,6 +17,7 @@
 }
 .sectionContact > input {
   width: 100%;
+  max-width: 700px;
   height: 4.4rem;
   margin-top: 1.6rem;
   border-radius: 0.8rem;
@@ -27,6 +29,7 @@
 }
 .sectionContact > textarea {
   width: 100%;
+  max-width: 700px;
   height: 12rem;
   min-height: 8.8rem;
   margin-top: 1.6rem;
@@ -46,10 +49,12 @@
   justify-content: center;
 }
 .sectionContactButtons input {
+  max-width: 700px;
   margin: 4rem 0 4rem;
 }
 .buttonsPrimary {
   width: fit-content;
+  max-width: 700px;
   font-size: calc(12px + var(--font-factor));
   font-weight: 500;
   color: var(--color-background);
