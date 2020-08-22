@@ -1,0 +1,22 @@
+.imageWrapper {
+  height: 200px;
+  width: 200px;
+}
+
+.divStyle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.divStyle img {
+  height: 100%;
+  width: 100%;
+}
+.divStyle text {
+  height: 100%;
+  width: 100%;
+}

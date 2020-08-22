@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import CreateQR, { buildQrCodeUrl } from '../../qr/qrgenerator';
 
 function Qrcode({ host }) {
   const [qrcode, setQrcode] = React.useState(null)
