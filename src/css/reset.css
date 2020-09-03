@@ -20,6 +20,8 @@
   --color-secondary-text: #D4C2FF;
   --color-secondary-title: #FFFFFF;
   --font-factor: 2.2vw;
+  --width-factor: 96vw;
+  --max-width-factor: 900px;
   font-size: 60%; 
 }
 
@@ -67,6 +69,8 @@ nav, ul, a {
 @media only screen and (max-width: 600px) {
   :root {
     --font-factor:3vw;
+    --width-factor: 92vw;
+    --max-width-factor: 580px;
   }
 }
 
@@ -74,6 +78,8 @@ nav, ul, a {
 @media only screen and (min-width: 1200px)  {
   :root {
     --font-factor:1vw;
+    --width-factor: 90vw;
+    --max-width-factor: 700px;
   }
 }
 
