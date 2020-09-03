@@ -62,11 +62,6 @@ nav, ul, a {
   justify-content: center;
 }
 
-/* @media (min-width: 700) {
-  :root {
-    font-size: 62.5%;
-  }
-} */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -74,24 +69,7 @@ nav, ul, a {
     --font-factor:3vw;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px)  {
-  :root {
-    --font-factor:2vw;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)  {
-  :root {
-    --font-factor:1.3vw;
-  }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px)  {
-  :root {
-    --font-factor:1vw;
-  }
-}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
   :root {
