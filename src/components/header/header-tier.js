@@ -9,13 +9,17 @@ export default function HeaderTier() {
     console.log('clicado');
   }
 
+  function showLogin() {
+
+  }
+
   return (
 
     <section className="sectionGreenTier">
 
       <header className={styles.sectionHeader}>
         <nav>
-          <li><a href="/">ACESSO</a></li>
+          <li><a href="/login">ACESSO</a></li>
           <li><a href="/">CONTATO</a></li>
           <li><a href="/"><Menu className={styles.hamburguerMenu} /> </a></li>
         </nav>
@@ -26,7 +30,7 @@ export default function HeaderTier() {
       </section>
 
       <section className={styles.sectionHeaderButtons}>
-        <input type="submit" className={styles.buttonsPrimary} value="REGISTRE-SE" />
+        <a href="/signin"><input type="submit" className={styles.buttonsPrimary} value="CADASTRE-SE" /></a>
         <input onClick={showModal} type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
       </section>
 
