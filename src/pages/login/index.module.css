@@ -1,0 +1,55 @@
+.sectionPagesImg {
+  display: flex;
+}
+.sectionPagesImg img {
+  width: var(--width-logo);
+  max-width: var(--max-width-logo);
+  display:block; 
+  padding-top: 5vh;
+}
+
+.sectionLogin {
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.sectionLogin > input {
+  width: 60%;
+  max-width: 500px;
+  height: 4.4rem;
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+  background-color: var(--color-input-background);
+  border: 1px solid var(--color-input-border);
+  outline: 0;
+  padding: 0 1.6rem;
+  font-size: calc(2px + var(--font-factor));
+}
+
+.sectionLoginButtons {
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  justify-content: center;
+}
+.sectionLoginButtons input {
+  max-width: 500px;
+  margin: 4rem 1rem 4rem;
+}
+.buttonsPrimary {
+  width: fit-content;
+  font-size: calc(12px + var(--font-factor));
+  font-weight: 500;
+  color: var(--color-background);
+  background-color: var(--color-secondary);
+  border: var(--color-secondary) 1px solid;
+  border-radius: 8px;
+  padding: 1vh 3vw;
+}
+.buttonsPrimary:hover {
+  background-color: var(--color-secondary-dark);
+}
