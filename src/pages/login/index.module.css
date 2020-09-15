@@ -1,5 +1,13 @@
 .sectionPagesImg {
   display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.sectionPagesImg h1 {
+  color: var(--color-title-primary);
+  font-size: calc(20px + var(--font-factor));
+  font-weight: 700;
+  padding-top: 7vh;
 }
 .sectionPagesImg img {
   width: var(--width-logo);
@@ -15,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  margin-top: 2rem;
 }
 .sectionLogin > input {
   width: 60%;
@@ -29,6 +37,20 @@
   padding: 0 1.6rem;
   font-size: calc(2px + var(--font-factor));
 }
+.sectionLogin a {
+  display: flex;
+  margin-top: 2rem;
+  font-size: calc(4px + var(--font-factor));
+  color: var(--color-text);
+  text-align: right;
+}
+.sectionLogin a:hover {
+  color: var(--color-input);
+}
+
+.iconLink{
+  width: 1.5vw;
+}
 
 .sectionLoginButtons {
   width: var(--width-factor);
@@ -38,18 +60,18 @@
 }
 .sectionLoginButtons input {
   max-width: 500px;
-  margin: 4rem 1rem 4rem;
+  margin: 2rem 1rem 4rem;
 }
 .buttonsPrimary {
   width: fit-content;
   font-size: calc(12px + var(--font-factor));
   font-weight: 500;
   color: var(--color-background);
-  background-color: var(--color-secondary);
-  border: var(--color-secondary) 1px solid;
+  background-color: var(--color-primary);
+  border: var(--color-primary) 1px solid;
   border-radius: 8px;
   padding: 1vh 3vw;
 }
 .buttonsPrimary:hover {
-  background-color: var(--color-secondary-dark);
+  background-color: var(--color-primary-dark);
 }

@@ -20,11 +20,11 @@
 }
 .sectionEmptyTier {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('/public/banner-panel.png');
+  background-image: url('../img/tier-back-white.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
