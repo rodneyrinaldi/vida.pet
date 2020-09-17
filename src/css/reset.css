@@ -22,8 +22,10 @@
   --font-factor: 2.2vw;
   --width-factor: 96vw;
   --max-width-factor: 1100px;
-  --width-logo: 120px;
+  --width-logo: 100px;
   --max-width-logo: 240px;
+  --width-logo-mini: 30px;
+  --max-width-logo-mini: 70px;
   font-size: 60%; 
 }
 

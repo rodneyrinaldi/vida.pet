@@ -1,0 +1,64 @@
+.sectionPagesImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+}
+.sectionPagesImg h1 {
+  color: var(--color-title-primary);
+  font-size: calc(20px + var(--font-factor));
+  font-weight: 700;
+  padding-top: 7vh;
+  padding-right: 3vw;
+}
+.sectionPagesImg img {
+  width: var(--width-logo-mini);
+  max-width: var(--max-width-logo-mini);
+  display:block; 
+  padding-top: 5vh;
+}
+
+.sectionSignin {
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.sectionSignin > input {
+  width: 80%;
+  max-width: 500px;
+  height: 4.4rem;
+  margin-top: 1.6rem;
+  border-radius: 0.8rem;
+  background-color: var(--color-input-background);
+  border: 1px solid var(--color-input-border);
+  outline: 0;
+  padding: 0 1.6rem;
+  font-size: calc(4px + var(--font-factor));
+}
+
+.sectionSigninButtons {
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  justify-content: center;
+}
+.sectionSigninButtons input {
+  max-width: 500px;
+  margin: 2rem 1rem 4rem;
+}
+.buttonsPrimary {
+  width: fit-content;
+  font-size: calc(12px + var(--font-factor));
+  font-weight: 500;
+  color: var(--color-background);
+  background-color: var(--color-primary);
+  border: var(--color-primary) 1px solid;
+  border-radius: 8px;
+  padding: 1vh 3vw;
+}
+.buttonsPrimary:hover {
+  background-color: var(--color-primary-dark);
+}

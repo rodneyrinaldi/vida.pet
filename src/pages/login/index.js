@@ -1,13 +1,16 @@
-import Link from 'next/link';
-import { useState, FormEvent } from 'react';
-import { File } from '@styled-icons/boxicons-regular/File'
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+import { UserCircle } from '@styled-icons/boxicons-regular/UserCircle'
+import { MailSend } from '@styled-icons/boxicons-regular/MailSend'
 import styles from './index.module.css'
 
 export default function Login() {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleLogin() {
+  function handleBack(e) {
+    e.preventDefault();
 
   }
 
@@ -24,14 +27,20 @@ export default function Login() {
         <input type="password" name="name" placeholder="Senha" value={password}
           onChange={(e) => { setPassword(e.target.value) }}
         />
-        <Link href="/signin">
-          <a>
+        <div>
+          <a onClick={() => router.push('/signin')}>
             <p>
-              <File className={styles.iconLink} />
-              {' '} cadastrar novo usuário
+              <UserCircle className={styles.iconLink} />
+              {' '} novo usuário
             </p>
           </a>
-        </Link>
+          <a onClick={() => router.push('/signin')}>
+            <p>
+              <MailSend className={styles.iconLink} />
+              {' '} esqueci a senha
+            </p>
+          </a>
+        </div>
         <section className={styles.sectionLoginButtons}>
           <input type="submit" className={styles.buttonsPrimary} value="ENTRAR" />
           <input type="submit" className={styles.buttonsPrimary} value="VOLTAR" />
