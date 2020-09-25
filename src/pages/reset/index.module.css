@@ -16,7 +16,7 @@
   padding-top: 5vh;
 }
 
-.sectionLogin {
+.sectionReset {
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
@@ -25,15 +25,15 @@
   align-items: center;
   margin-top: 2rem;
 }
-.sectionLogin div {
+.sectionReset div {
   display: flex;
   flex-direction: row;
 }
-.sectionLogin div Link {
+.sectionReset div Link {
   display: flex;
   flex-direction: row;
 }
-.sectionLogin > input {
+.sectionReset > input {
   width: 80%;
   max-width: 500px;
   height: 5rem;
@@ -45,32 +45,14 @@
   padding: 0 1.6rem;
   font-size: calc(10px + var(--font-factor));
 }
-.sectionLogin a {
-  display: flex;
-  margin-top: 2rem;
-  font-size: calc(10px + var(--font-factor));
-  color: var(--color-text);
-  text-align: right;
-  cursor: pointer;
-}
-.sectionLogin a:first-child {
-  margin-right: 2rem;
-}
-.sectionLogin a:hover {
-  color: var(--color-input);
-}
 
-.iconLink{
-  width: 5rem;
-}
-
-.sectionLoginButtons {
+.sectionResetButtons {
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
   justify-content: center;
 }
-.sectionLoginButtons input {
+.sectionResetButtons input {
   max-width: 500px;
   margin: 2rem 1rem 4rem;
 }

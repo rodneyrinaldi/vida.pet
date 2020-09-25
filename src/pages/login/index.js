@@ -11,7 +11,7 @@ export default function Login() {
 
   function handleBack(e) {
     e.preventDefault();
-
+    router.back()
   }
 
   return (
@@ -34,7 +34,7 @@ export default function Login() {
               {' '} novo usuário
             </p>
           </a>
-          <a onClick={() => router.push('/signin')}>
+          <a onClick={() => router.push('/reset')}>
             <p>
               <MailSend className={styles.iconLink} />
               {' '} esqueci a senha
@@ -43,7 +43,7 @@ export default function Login() {
         </div>
         <section className={styles.sectionLoginButtons}>
           <input type="submit" className={styles.buttonsPrimary} value="ENTRAR" />
-          <input type="submit" className={styles.buttonsPrimary} value="VOLTAR" />
+          <input type="submit" className={styles.buttonsPrimary} value="VOLTAR" onClick={handleBack} />
         </section>
       </form>
     </section>
