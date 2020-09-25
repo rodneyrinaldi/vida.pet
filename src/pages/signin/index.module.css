@@ -7,14 +7,15 @@
   color: var(--color-title-primary);
   font-size: calc(40px + var(--font-factor));
   font-weight: 700;
-  padding-top: 5vh;
+  margin-top: 1rem;
   padding-right: 1vw;
 }
 .sectionPagesImg img {
   width: var(--width-logo-mini);
   max-width: var(--max-width-logo-mini);
   display:block; 
-  padding-top: 5vh;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 .sectionSignin {
@@ -30,7 +31,7 @@
   width: 80%;
   max-width: 500px;
   height: 5rem;
-  margin-top: 1.6rem;
+  margin-top: 2.8rem;
   border-radius: 0.8rem;
   background-color: var(--color-input-background);
   border: 1px solid var(--color-input-border);
@@ -40,6 +41,7 @@
 }
 
 .sectionSigninButtons {
+  margin-top: 3rem;
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;

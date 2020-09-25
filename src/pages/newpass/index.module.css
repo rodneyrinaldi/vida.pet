@@ -17,7 +17,7 @@
   margin-bottom: 4rem;
 }
 
-.sectionReset {
+.sectionNewPass {
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
@@ -26,16 +26,7 @@
   align-items: center;
   margin-top: 2rem;
 }
-.sectionReset div {
-  display: flex;
-  flex-direction: row;
-  margin-top: 3rem;
-}
-.sectionReset div Link {
-  display: flex;
-  flex-direction: row;
-}
-.sectionReset > input {
+.sectionNewPass > input {
   width: 80%;
   max-width: 500px;
   height: 5rem;
@@ -48,14 +39,14 @@
   font-size: calc(10px + var(--font-factor));
 }
 
-.sectionResetButtons {
+.sectionNewPassButtons {
   margin-top: 3rem;
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
   justify-content: center;
 }
-.sectionResetButtons input {
+.sectionNewPassButtons input {
   max-width: 500px;
   margin: 2rem 1rem 4rem;
 }
