@@ -26,6 +26,7 @@ export default function HeaderTier() {
       </header>
 
       <section className={styles.sectionHeaderImg}>
+        <h1>v i d a . p e t</h1>
         <img src="/banner-home.png" alt="banner" />
       </section>
 

@@ -18,7 +18,7 @@ export default function Signin() {
   return (
     <section className="sectionEmptyTier">
       <section className={styles.sectionPagesImg}>
-        <h1>vida.pet</h1>
+        <h1>v i d a . p e t</h1>
         <img src="/banner-pages.png" alt="logo" />
       </section>
       <form method="post" action="#" className={styles.sectionSignin} >

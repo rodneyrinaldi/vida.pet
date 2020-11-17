@@ -7,14 +7,12 @@
   color: var(--color-title-primary);
   font-size: calc(50px + var(--font-factor));
   font-weight: 700;
-  padding-top: 4vh;
 }
 .sectionPagesImg img {
   width: var(--width-logo);
   max-width: var(--max-width-logo);
   display:block; 
-  padding-top:  3rem;
-  margin-bottom: 4rem;
+  padding-top:  6rem;
 }
 
 .sectionLogin {

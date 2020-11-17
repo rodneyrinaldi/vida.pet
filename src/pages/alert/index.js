@@ -1,11 +1,36 @@
+import { useRouter } from 'next/router';
+
 import styles from './index.module.css'
 
 export default function Alert() {
+  const router = useRouter();
+
+  function handleBack(e) {
+    e.preventDefault();
+    router.back()
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    router.back()
+  }
+
   return (
-    <div className={styles.sectionFormTier}>
-      <p>Formulario de alerta de pet encontrato</p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRIY6NrKBRfu4RoCcJXqUWL3459S7nE3bOIueY-Tn-x-kjQw/viewform?embedded=true">
-        Loading…
-      </iframe>
-    </div>)
+    <section className="sectionEmptyTier">
+      <section className={styles.sectionPagesImg}>
+        <img src="/banner-pages.png" alt="logo" />
+        <h1>v i d a . p e t</h1>
+      </section>
+      <form method="post" action="#" className={styles.sectionAlert} >
+
+
+        <section className={styles.sectionAlertButtons}>
+          <input type="submit" className={styles.buttonsPrimary} value="ENTRAR"
+            onClick={handleSubmit} />
+          <input type="submit" className={styles.buttonsPrimary} value="VOLTAR"
+            onClick={handleBack} />
+        </section>
+      </form>
+    </section>
+  )
 }

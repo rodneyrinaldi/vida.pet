@@ -15,8 +15,8 @@ export default function NewPass() {
   return (
     <section className="sectionEmptyTier">
       <section className={styles.sectionPagesImg}>
-        <h1>vida.pet</h1>
         <img src="/banner-pages.png" alt="logo" />
+        <h1>v i d a . p e t</h1>
       </section>
       <form method="post" action="#" className={styles.sectionNewPass} >
         <input type="newpw" name="newpw" placeholder="Nova senha" value={newpw}

@@ -5,7 +5,7 @@ export default function FooterTier() {
   return (
     <section className="sectionGreenTier">
       <section className={styles.sectionFooter}>
-        VIDA.PET
+        v i d a . p e t
       </section>
     </section>
   )
