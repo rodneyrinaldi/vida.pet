@@ -1,7 +1,7 @@
 <!-- START -->
 <p align="center">
   <a href="#">
-    <img alt="rodneyrinaldi" src="http://rodneyrinaldi.com/assets/images/rr-logo.png" width="60" />
+    <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/vida.pet/blob/master/public/rr-logo.png" width="60" />
   </a>
 </p>
 
@@ -9,6 +9,10 @@
   Lost pets location safety web page
 </h3>
 
-<img alt="vida.pet page" src="https://github.com/rodneyrinaldi/vida.pet/blob/master/public/page.png" width="60" />
+<p align="center">
+  <a href="#">
+    <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/vida.pet/blob/master/public/page.png" width="600" />
+  </a>
+</p>
 
 <!-- END -->
