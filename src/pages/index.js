@@ -7,6 +7,7 @@ const ContactTier = dynamic(() => import('../components/section/contact-tier.js'
 const FooterTier = dynamic(() => import('../components/footer/footer-tier.js'))
 
 function Index() {
+
   return (
     <>
       <HeaderTier />

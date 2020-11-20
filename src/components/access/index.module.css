@@ -1,0 +1,2 @@
+.sectionMenu {width: calc(13px + var(--font-factor)); padding-bottom: 0.4rem; color: var(--color-background);}
+.sectionMenu:hover {color: var(--color-secondary-title);}

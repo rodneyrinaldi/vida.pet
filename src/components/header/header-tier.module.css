@@ -10,8 +10,8 @@
 .sectionHeader nav li { margin: 15px; }
 .sectionHeader nav li a{ color: var(--color-background); font-size: calc(16px + var(--font-factor)); font-weight: 500;}
 .sectionHeader nav li a:hover{color: var(--color-primary-title); }
-.hamburguerMenu {width: calc(16px + var(--font-factor)); padding-bottom: 0.4rem; color: var(--color-background);}
-.hamburguerMenu:hover {color: var(--color-secondary-title);}
+.sectionMenu {width: calc(16px + var(--font-factor)); padding-bottom: 0.4rem; color: var(--color-background);}
+.sectionMenu:hover {color: var(--color-secondary-title);}
 
 .sectionHeaderImg h1 {
   color: var(--color-background);

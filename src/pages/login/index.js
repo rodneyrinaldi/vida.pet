@@ -40,6 +40,7 @@ export default function Login() {
       setMsgerr(`Erro na Conexão`)
     }
     else {
+      localStorage.setItem('@vida-pet/token', token);
       setMsgerr(`Conexão com sucesso`)
       router.back()
     }

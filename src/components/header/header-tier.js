@@ -1,6 +1,8 @@
 import React from 'react'
-import { Menu } from '@styled-icons/boxicons-regular'
+
 import styles from './header-tier.module.css'
+
+import Access from '../access/index'
 
 export default function HeaderTier() {
   function showModal() {
@@ -19,9 +21,9 @@ export default function HeaderTier() {
 
       <header className={styles.sectionHeader}>
         <nav>
-          <li><a href="/login">ACESSO</a></li>
-          <li><a href="/">CONTATO</a></li>
-          <li><a href="/"><Menu className={styles.hamburguerMenu} /> </a></li>
+          <li><a href="/">SERVIÇOS</a></li>
+          <li><a href="#contactLayer">CONTATO</a></li>
+          <li><Access /></li>
         </nav>
       </header>
 

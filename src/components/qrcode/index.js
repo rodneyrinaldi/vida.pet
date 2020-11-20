@@ -16,9 +16,9 @@ export default function QRCode() {
   return (
     <div className={styles.imageWrapper}>
       <div className={styles.divStyle}>
-        <text>v i d a . p e t</text>
+        <h3>v i d a . p e t</h3>
         <img id="QrID"></img>
-        <text>scoobydoo</text>
+        <h3>scoobydoo</h3>
       </div>
     </div>
   )

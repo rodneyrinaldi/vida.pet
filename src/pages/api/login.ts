@@ -53,7 +53,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
         (err, token) => {
           res.status(200).json({
             success: true,
-            token: 'Bearer ' + token,
+            token: token,
           });
         },
       );
