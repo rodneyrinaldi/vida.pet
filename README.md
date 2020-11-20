@@ -9,7 +9,6 @@
   Lost pets location safety web page
 </h3>
 
-<img alt="gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-
+<img alt="vida.pet page" src="https://github.com/rodneyrinaldi/vida.pet/blob/master/public/page.png" width="60" />
 
 <!-- END -->
