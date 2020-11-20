@@ -14,5 +14,4 @@
     <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/vida.pet/blob/master/public/page.png" width="600" />
   </a>
 </p>
-
 <!-- END -->
