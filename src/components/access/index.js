@@ -13,23 +13,28 @@ export default function Access() {
 
     async function fetchToken() {
       try {
-        setToken(localStorage.getItem('@vida-pet/token'))
-        const data = await fetch('/api/secret', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ token: token })
-        })
-        console.log(data)
-        setAuth(data);
+        const tokenRead = localStorage.getItem('@vida-pet/token')
+        if (tokenRead === null) {
+          setAuth(false)
+        } else {
+          setToken(localStorage.getItem('@vida-pet/token'))
+          const data = await fetch('/api/secret', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ token: token })
+          })
+          const { logged } = await data.json()
+          setAuth(logged);
+        }
       } catch (error) {
-        alert(error);
+        console.log(error);
       }
     }
 
     fetchToken()
-  }, [])
+  })
 
   function handleLogout() {
     localStorage.removeItem('@vida-pet/token');

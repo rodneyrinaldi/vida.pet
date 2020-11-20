@@ -11,17 +11,13 @@ export default function HeaderTier() {
     console.log('clicado');
   }
 
-  function showLogin() {
-
-  }
-
   return (
 
     <section className="sectionGreenTier">
 
       <header className={styles.sectionHeader}>
         <nav>
-          <li><a href="/">SERVIÇOS</a></li>
+          <li><a href="/services">SERVIÇOS</a></li>
           <li><a href="#contactLayer">CONTATO</a></li>
           <li><Access /></li>
         </nav>

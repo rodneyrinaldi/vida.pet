@@ -25,7 +25,7 @@ export default function Alert() {
 
 
         <section className={styles.sectionAlertButtons}>
-          <input type="submit" className={styles.buttonsPrimary} value="ENTRAR"
+          <input type="submit" className={styles.buttonsPrimary} value="AVISAR"
             onClick={handleSubmit} />
           <input type="submit" className={styles.buttonsPrimary} value="VOLTAR"
             onClick={handleBack} />

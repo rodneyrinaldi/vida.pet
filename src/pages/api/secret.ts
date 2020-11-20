@@ -10,11 +10,11 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
     const logged = jwt.verify(token, KEY)
 
     if (logged === null) {
-      res.status(200).json({ logged: false, Error: 'Invalid token' })
+      res.json({ logged: false, Error: 'Invalid token' })
     } else {
-      res.status(200).json({ logged: true, Error: '' })
+      res.json({ logged: true, Error: '' })
     }
   } catch (error) {
-    res.status(200).json({ logged: false, Error: error })
+    res.json({ logged: false, Error: error })
   }
 }
