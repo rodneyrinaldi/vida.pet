@@ -1,14 +1,14 @@
-.sectionRegister {  
+.homeAlert {  
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
   justify-content: center;
   padding-top: 2rem;
 }
-.sectionRegisterImg {
+.homeAlertImg {
   display: flex;
 }
-.sectionRegisterImg img {
+.homeAlertImg img {
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display:block; 
@@ -16,17 +16,16 @@
   padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 5%;
-  
+  padding-bottom: 5%;  
 }
-.sectionRegisterButtons {
+.homeAlertButtons {
   width: var(--width-factor);
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.sectionRegisterButtons input {
-  margin: 1rem 0 3rem 15rem;
+.homeAlertButtons input {
+  margin: 1rem 15rem 5rem 0;
 }
 .buttonsSecondary {
   width: fit-content;

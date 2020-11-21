@@ -1,4 +1,4 @@
-.sectionContact {
+.homeContact {
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   padding-top: 5rem;
 }
-.sectionContact h2 {
+.homeContact h2 {
   width: 100%;
   max-width: 700px;
   height: 4.4rem;
@@ -15,7 +15,7 @@
   font-size: calc(16px + var(--font-factor));
   font-weight: 600;
 }
-.sectionContact > input {
+.homeContact > input {
   width: 100%;
   max-width: 700px;
   height: 5rem;
@@ -27,7 +27,7 @@
   padding: 0 1.6rem;
   font-size: calc(10px + var(--font-factor));
 }
-.sectionContact > textarea {
+.homeContact > textarea {
   width: 100%;
   max-width: 700px;
   height: 12rem;
@@ -42,13 +42,13 @@
   resize: vertical;
 }
 
-.sectionContactButtons {
+.homeContactButtons {
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
   justify-content: center;
 }
-.sectionContactButtons input {
+.homeContactButtons input {
   max-width: 700px;
   margin: 4rem 0 4rem;
 }

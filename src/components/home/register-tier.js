@@ -16,13 +16,13 @@ export default function RegisterTier() {
 
       <ModalTier />
 
-      <section className={styles.sectionRegisterImg}>
+      <section className={styles.homeRegisterImg}>
         <Link href="/register">
           <a><img src="/banner-register.png" alt="banner" /></a>
         </Link>
       </section>
 
-      <section className={styles.sectionRegisterButtons}>
+      <section className={styles.homeRegisterButtons}>
         <input onClick={showModal} type="submit" className={styles.buttonsSecondary} value="SAIBA MAIS" />
       </section>
 

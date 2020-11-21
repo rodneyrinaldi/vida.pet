@@ -15,11 +15,12 @@
 
 .sectionHeaderImg h1 {
   color: var(--color-background);
-  font-size: calc(30px + var(--font-factor));
+  font-size: calc(20px + var(--font-factor));
   display: flex;
   justify-content: center;
-  font-weight: 700;
-  padding-top: 1vh;
+  font-weight: 500;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
 }
 .sectionHeaderImg img {
   width: 94vw;

@@ -17,20 +17,35 @@ export default function Alert() {
 
   return (
     <section className="sectionEmptyTier">
-      <section className={styles.sectionPagesImg}>
+
+      <section className={styles.alertPagesImg}>
         <img src="/banner-pages.png" alt="logo" />
         <h1>v i d a . p e t</h1>
       </section>
-      <form method="post" action="#" className={styles.sectionAlert} >
 
+      <form method="post" action="#" className={styles.alertAlert} >
 
-        <section className={styles.sectionAlertButtons}>
+        <section className={styles.alertPagesPhoto}>
+          <h1>PROCURADO</h1>
+          <div className={styles.alertPagesPhotoBox}>
+            <img src="/oval-frame.png" alt="picture" />
+            <img src="/rr-face.png" alt="picture" />
+          </div>
+        </section>
+
+        <section className={styles.alertAlertText}>
+          <h1>nome cachorro<span> 11 1234-56789</span></h1>
+        </section>
+
+        <section className={styles.alertAlertButtons}>
           <input type="submit" className={styles.buttonsPrimary} value="AVISAR"
             onClick={handleSubmit} />
           <input type="submit" className={styles.buttonsPrimary} value="VOLTAR"
             onClick={handleBack} />
         </section>
+
       </form>
+
     </section>
   )
 }

@@ -1,0 +1,93 @@
+.alertPagesImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 5rem;
+}
+.alertPagesImg h1 {
+  color: var(--color-title-primary);
+  font-size: calc(26px + var(--font-factor));
+  font-weight: 700;
+  margin-left: 2rem;
+}
+.alertPagesImg img {
+  width: var(--width-logo-mini);
+  max-width: var(--max-width-logo-mini);
+}
+
+.alertAlert {
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.alertPagesPhoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.alertPagesPhoto h1 {
+  color: var(--color-title-primary);
+  font-size: calc(6px + var(--font-factor));
+  font-weight: 700;
+}
+
+.alertPagesPhotoBox {
+  display: flex;
+  justify-content: center;  
+  text-align: center;
+  position: relative;
+}  
+.alertPagesPhotoBox img:nth-child(1) {
+  position: absolute;
+  width: 30rem;
+}  
+.alertPagesPhotoBox img:nth-child(2) {
+  position: absolute;
+  width: 22rem;
+  top: 6rem;
+} 
+
+.alertAlertText {
+  margin-top: 38rem;
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  justify-content: center;
+}
+.alertAlertText h1 {
+color: var(--color-title-primary);
+font-size: calc(2px + var(--font-factor));
+font-weight: 700;
+}
+
+.alertAlertButtons {
+  margin-top: 1rem;
+  width: var(--width-factor);
+  max-width: var(--max-width-factor);
+  display: flex;
+  justify-content: center;
+}
+.alertAlertButtons input {
+  max-width: 500px;
+  margin: 2rem 1rem 4rem;
+}
+.buttonsPrimary {
+  width: fit-content;
+  font-size: calc(12px + var(--font-factor));
+  font-weight: 500;
+  color: var(--color-background);
+  background-color: var(--color-primary);
+  border: var(--color-primary) 1px solid;
+  border-radius: 8px;
+  padding: 1vh 3vw;
+}
+.buttonsPrimary:hover {
+  background-color: var(--color-primary-dark);
+}

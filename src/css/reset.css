@@ -26,6 +26,8 @@
   --max-width-logo: 240px;
   --width-logo-mini: 40px;
   --max-width-logo-mini: 70px;
+  --width-photo: 400px;
+  --max-width-photo: 540px;
   font-size: 60%; 
 }
 
