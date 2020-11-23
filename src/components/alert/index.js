@@ -1,8 +1,10 @@
 import { useRouter } from 'next/router';
 
+import FooterTier from '../../components/footer/footer-tier'
+
 import styles from './index.module.css'
 
-export default function Alert() {
+export default function AlertComponent() {
   const router = useRouter();
 
   function handleBack(e) {
@@ -12,7 +14,8 @@ export default function Alert() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    router.back()
+    //router.back()
+    alert(router.query.id)
   }
 
   return (
@@ -29,7 +32,7 @@ export default function Alert() {
           <h1>PROCURADO</h1>
           <div className={styles.alertPagesPhotoBox}>
             <img src="/oval-frame.png" alt="picture" />
-            <img src="/rr-face.png" alt="picture" />
+            <img src="/banner-lost.jpg" alt="picture" />
           </div>
         </section>
 
@@ -46,6 +49,10 @@ export default function Alert() {
         </section>
 
       </form>
+
+      <section className={styles.alertFooter}>
+        <FooterTier />
+      </section>
 
     </section >
   )

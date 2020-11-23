@@ -1,0 +1,68 @@
+.back {
+  background: linear-gradient(#001001, #003801);
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.url {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 5vh;
+}
+
+.urlLink {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 3vh;
+}
+
+.petName {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 1vh;
+}
+.petImg {
+  border: rgb(1, 2, 0) solid 3px;
+  border-radius: 8px;
+
+  width: 90vw;
+}
+
+.advise {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3vh;
+  align-items: center;
+}
+.advise div {
+	margin: 5px;
+	padding: 0 10px;
+  text-align: center;
+}
+
+.dogs {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  width: 20vw;
+}
+
+.whats {
+  width: 12vw;
+}
+
+.sharePosition {
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-top: 5vh;
+}

@@ -13,7 +13,7 @@ export default function AlertTier() {
     <section className="sectionWhiteTier">
 
       <section className={styles.homeAlertImg}>
-        <Link href="/alert-page">
+        <Link href="/alert">
           <a><img src="/banner-alert.png" alt="banner" /></a>
         </Link>
       </section>
