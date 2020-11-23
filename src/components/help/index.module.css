@@ -12,7 +12,7 @@
 
 .url {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 500;
   padding-bottom: 5vh;
 }
@@ -39,13 +39,12 @@
 
 .advise {
   display: flex;
-  justify-content: space-around;
   padding-top: 3vh;
   align-items: center;
 }
 .advise div {
 	margin: 5px;
-	padding: 0 10px;
+	padding: 0 40px;
   text-align: center;
 }
 
