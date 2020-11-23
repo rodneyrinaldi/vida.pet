@@ -34,11 +34,12 @@ export default function Alert() {
         </section>
 
         <section className={styles.alertAlertText}>
-          <h1>nome cachorro<span> 11 1234-56789</span></h1>
+          <h1>nome cachorro</h1>
+          <h2>11 1234-56789</h2>
         </section>
 
         <section className={styles.alertAlertButtons}>
-          <input type="submit" className={styles.buttonsPrimary} value="AVISAR"
+          <input type="submit" className={styles.buttonsSecondary} value="AVISAR"
             onClick={handleSubmit} />
           <input type="submit" className={styles.buttonsPrimary} value="VOLTAR"
             onClick={handleBack} />
@@ -46,6 +47,6 @@ export default function Alert() {
 
       </form>
 
-    </section>
+    </section >
   )
 }

@@ -1,15 +1,14 @@
 .alertPagesImg {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;  
-  margin-top: 5rem;
+  align-items: center; 
+  padding-top: 5vh;
 }
 .alertPagesImg h1 {
   color: var(--color-title-primary);
   font-size: calc(26px + var(--font-factor));
   font-weight: 700;
-  margin-left: 2rem;
 }
 .alertPagesImg img {
   width: var(--width-logo-mini);
@@ -23,14 +22,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 }
 
 .alertPagesPhoto {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;  
+  padding-top: 5vh;
 }
 .alertPagesPhoto h1 {
   color: var(--color-title-primary);
@@ -40,43 +37,52 @@
 
 .alertPagesPhotoBox {
   display: flex;
-  justify-content: center;  
-  text-align: center;
+  justify-content: center; 
   position: relative;
+  padding-top: 2vh;
 }  
 .alertPagesPhotoBox img:nth-child(1) {
   position: absolute;
-  width: 30rem;
+  width: 30vh;
 }  
 .alertPagesPhotoBox img:nth-child(2) {
   position: absolute;
-  width: 22rem;
-  top: 6rem;
+  width: 22vh;
+  padding-top: 6vh;
 } 
 
 .alertAlertText {
-  margin-top: 38rem;
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .alertAlertText h1 {
 color: var(--color-title-primary);
-font-size: calc(2px + var(--font-factor));
+font-size: calc(6px + var(--font-factor));
 font-weight: 700;
+padding-top: 40vh;
+align-self: center;
+}
+.alertAlertText h2 {
+color: var(--color-title-primary);
+font-size: calc(4px + var(--font-factor));
+font-weight: 500;
+padding-top: 0.4vh;
+align-self: center;
 }
 
 .alertAlertButtons {
-  margin-top: 1rem;
   width: var(--width-factor);
   max-width: var(--max-width-factor);
   display: flex;
   justify-content: center;
+  padding-top: 6vh;
 }
 .alertAlertButtons input {
   max-width: 500px;
-  margin: 2rem 1rem 4rem;
+  margin: 2vh 1vw 4vh;
 }
 .buttonsPrimary {
   width: fit-content;
@@ -86,8 +92,21 @@ font-weight: 700;
   background-color: var(--color-primary);
   border: var(--color-primary) 1px solid;
   border-radius: 8px;
-  padding: 1vh 3vw;
+  padding: 1vh 4vw;
 }
 .buttonsPrimary:hover {
   background-color: var(--color-primary-dark);
+}
+.buttonsSecondary {
+  width: fit-content;
+  font-size: calc(12px + var(--font-factor));
+  font-weight: 500;
+  color: var(--color-background);
+  background-color: var(--color-secondary);
+  border: var(--color-secondary) 1px solid;
+  border-radius: 8px;
+  padding: 1vh 4vw;
+}
+.buttonsSecondary:hover {
+  background-color: var(--color-secondary-dark);
 }
