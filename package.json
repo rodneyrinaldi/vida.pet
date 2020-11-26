@@ -13,6 +13,7 @@
     "bcrypt": "^5.0.0",
     "emailjs-com": "^2.4.1",
     "express": "^4.17.1",
+    "framer-motion": "^2.9.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.7",
     "next": "9.4.4",

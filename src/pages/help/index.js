@@ -4,5 +4,9 @@ const HelpComponent = dynamic(() => import('../../components/help/index'))
 
 export default function Help() {
 
-  return (<HelpComponent />)
+  return (
+    <>
+      <HelpComponent />
+    </>
+  )
 }
